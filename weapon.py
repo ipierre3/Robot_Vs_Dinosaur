@@ -2,6 +2,9 @@
 
 class Weapon:
 
-    def __init__(self):
-        self.name = ''
-        self.attack_power = 0
+    def __init__(self, name: str, attack_power: int):
+        self.name = name
+        self.attack_power = attack_power
+
+
+#donzo
