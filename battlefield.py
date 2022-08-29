@@ -7,7 +7,7 @@ class Battlefield:
     
     def run_game(self):
         self.display_welcome()
-        self.battlephase()
+        self.battle_phase()
         self.display_winner()
 
     def display_welcome(self):
